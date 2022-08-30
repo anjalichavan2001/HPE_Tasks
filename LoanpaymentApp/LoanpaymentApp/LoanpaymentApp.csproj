@@ -50,6 +50,8 @@
   <ItemGroup>
     <Compile Include="CarLoan.cs" />
     <Compile Include="HomeLoan.cs" />
+    <Compile Include="ILoan.cs" />
+    <Compile Include="Loan.cs" />
     <Compile Include="PersonalLoan.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

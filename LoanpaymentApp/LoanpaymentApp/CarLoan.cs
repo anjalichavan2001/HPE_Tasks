@@ -8,26 +8,11 @@ namespace LoanpaymentApp
 {
     class CarLoan : Loan
     {
-        public override void getAmount()
+        public CarLoan(double principalAmount, int tenure)
         {
-            Console.WriteLine("Enter principle amount for Car Loan");
-            p_amount = Convert.ToDouble(Console.ReadLine());
-        }
-
-        public override void getRate()
-        {
-            Console.WriteLine("Enter rate of interest for Car Loan");
-            rate = Convert.ToDouble(Console.ReadLine());
-        }
-
-        public override void getYrs()
-        {
-            Console.WriteLine("Enter tenure for Car Loan");
-            yrs = Convert.ToInt32(Console.ReadLine());
-        }
-        public void printTotal()
-        {
-            Console.WriteLine("Total amount to be paid for car loan {0}", total);
+            PrincipalAmount = principalAmount;
+            Tenure = tenure;
+            InterestRate = 8.5;
         }
     }
 }
