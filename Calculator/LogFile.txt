@@ -1,0 +1,1 @@
+2022-09-15 13:58:07,323 [7] ERROR Calculator.Calculation [(null)] - Error in division Attempted to divide by zero.
