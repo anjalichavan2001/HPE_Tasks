@@ -5,4 +5,4 @@
 4. Multithreading File App - Create a multi threaded application - one thread to read a folder of files and move them in to multiple folders based on the extension, another thread reads into the extension file folders and delete them if the files are more than (5KB for txt, 100KB for image, 1MB for Video).
 5. HelloService - create a windows service to call a WCF/REST service and log the results in Log file every 30sec/ 5 mins.
 6. WebServiceCRUD - created a webservice to interact with table in database. Also created a client windowsForms app to implement the webservice.
-7. 7.WCFserviceCRUD - converted the above mentioned Webservice into a WCF service and created a client windowsForms app to implement the WCFservice.
+7. WCFserviceCRUD - converted the above mentioned Webservice into a WCF service and created a client windowsForms app to implement the WCFservice.
