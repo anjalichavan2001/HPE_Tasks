@@ -14,11 +14,12 @@ namespace Multithreading_FileApp
         {
            
             MoveFiles f1 = new MoveFiles();
+            DeleteFiles f2 = new DeleteFiles();
+
             Thread t1 = new Thread(f1.Move_files);
             t1.Start();
             Console.WriteLine("Files moved to their respective folders.");
 
-            DeleteFiles f2 = new DeleteFiles();
             Thread t2 = new Thread(f2.DeleteImages);
             Thread t3 = new Thread(f2.DeleteText);
             Thread t4 = new Thread(f2.DeleteVideos);

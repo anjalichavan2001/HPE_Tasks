@@ -3,11 +3,12 @@
     public abstract class Loan : ILoan
     {
         private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+        
         public double PrincipalAmount;
-       
         public int Tenure;
         public double Total;
         public double InterestRate;
+
         public void CalculateRepaymentAmount()
         {
             if (PrincipalAmount <= 0)
